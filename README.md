@@ -116,13 +116,3 @@ __TIPS__: gitHub/noname1007
 > ~~What? high-performance and high-bandwidth machines? Never mind, just use it! have fun!~~
 
 In fact, there is another EASY way to solved the encryption, try and find it!😆
-
-# Thanks note
-Some English text translated by [Aholicknight](https://github.com/Aholicknight)
-
-thanks a lot! 
-
-# donate
-If you like this project, you can be a sponsor!  
-
-[Pay Me via PayPal](https://www.paypal.com/paypalme/pay2rami)
