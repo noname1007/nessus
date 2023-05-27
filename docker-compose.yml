@@ -1,0 +1,18 @@
+version: "3.1"
+
+services:
+  # attach to the app w/ "docker attach `docker ps | grep noname1007_nessus | cut -d ' ' -f1`"
+  nessus:
+    container_name: noname1007_nessus
+    image: noname1007/nessus:latest
+    restart: always
+    platform: linux/amd64
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    # volumes:
+    #   - ./nessus/:/opt/nessus/etc/nessus/
+    ports:
+      - "18834:8834"
+    stdin_open: true
+    tty: true
+  ##docker exec -it noname1007_nessus /bin/bash /nessus/update.sh
