@@ -4,7 +4,7 @@ services:
   # attach to the app w/ "docker attach `docker ps | grep noname1007_nessus | cut -d ' ' -f1`"
   nessus:
     container_name: noname1007_nessus
-    image: noname1007/nessus:latest
+    image: noname1007/nessus
     restart: always
     platform: linux/amd64
     environment:
