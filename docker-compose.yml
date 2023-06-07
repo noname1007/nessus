@@ -4,9 +4,9 @@ services:
   # attach to the app w/ "docker attach `docker ps | grep noname1007_nessus | cut -d ' ' -f1`"
   nessus:
     container_name: noname1007_nessus
-    image: noname1007/nessus
+    image: noname1007/nessus:aarch64
     restart: always
-    platform: linux/amd64
+    platform: linux/aarch64
     environment:
       - TZ=Asia/Ho_Chi_Minh
     # volumes:
@@ -17,3 +17,4 @@ services:
     tty: true
 ##docker exec -it noname1007_nessus /bin/bash /nessus/update.sh
 ##docker exec -it noname1007_nessus /opt/nessus/sbin/nessuscli chpasswd admin
+##docker run -itd --name=noname1007_nessus -p 8834:8834 noname1007/nessus --platform=linux/amd64
