@@ -82,7 +82,6 @@ We can do a little thing for open source, for the world!
 
 - Change password
 
-  **tips：npaobi/lsspva-iph/ulzzbz**
 
   **Alea iacta est，Destiny reveals that your lucky number is 7.**
 
